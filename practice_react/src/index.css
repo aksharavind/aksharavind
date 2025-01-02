@@ -1,0 +1,21 @@
+.card {
+    background-color: palegoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-style: italic;
+    max-width: 200px;
+    min-height: 300px; /* Set a minimum height for consistent cards */
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    display: inline-block; /* Aligns cards in a row */
+    vertical-align: top; /* Ensures vertical alignment if heights differ */
+    box-sizing: border-box; /* Includes padding and border in height calculation */
+}
+
+.card img {
+    width: 190px;
+    height: auto; /* Ensures images maintain their aspect ratio */
+}
